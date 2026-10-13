@@ -1,0 +1,15 @@
+.container {
+    display: flex;
+    flex-direction: row;   /* default: sejajar horizontal */
+    justify-content: space-between;   /* coba: flex-start, flex-end, space-between, space-around, space-evenly */
+    background-color: #ddd;
+    padding: 10px;
+}
+
+.item {
+    background-color: lightblue;
+    border: 2px solid navy;
+    padding: 20px;
+    margin: 5px;
+    font-size: 20px;
+}
